@@ -1,0 +1,312 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	transition: all 500ms ease-in-out;
+}
+
+a:hover,
+a:active {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h4 {
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+p {
+	font-size: 15px;
+	line-height: 21px;
+}
+
+.btn {
+	transition: all 300ms ease-in-out;
+	font-weight: 500 !important;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	background-color: #ededed !important;
+	color: #3c3c3c !important;
+	border: 1px solid #fff !important;
+
+}
+
+/*NAVIGATION*/
+
+.navbar {
+	background-color: #222222 !important;
+	text-transform: uppercase;
+	font-family: 'PT Sans Narrow' Arial, sans-serif;
+	font-weight: 700;
+}
+
+.navbar a {
+	color: #fff !important;
+	opacity: 0.7;
+}
+
+.navbar a:hover {
+	opacity: 1;
+	background-color: #111111 !important;
+}
+
+#navbarText .navbar-text {
+	color: white;
+}
+
+/*HEADER*/
+
+.header {
+	height: 600px;
+	width: 100%;
+	padding: 30px 0 30px;
+	margin-top: 50px;
+	background-image: url("https://vignette3.wikia.nocookie.net/steamtradingcards/images/8/8e/Bot_Colony_Background_Montreal_Fire_Department.jpg/revision/latest?cb=20150329043129");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	
+}
+
+.header img {
+	height: 400px;
+	width: 400px;
+	margin: 80px 0 0 140px;
+	opacity: 0.6;
+}
+
+.header h1{
+	font-size: 40px;
+	font-weight: 700;
+	padding-top: 30px;
+}
+
+.header h1, 
+.header p,
+.header button {
+	margin-top: 20px;
+}
+
+.header .btn {
+	width: 150px;
+	margin: 40px 20px;
+	border: 1px solid black;
+}
+
+.header #learnMore {
+	color: #fff;
+	background-color: #ce2029;
+}
+
+.header #membersButton {
+	background-color: #fff;
+	color: #ce2029;
+}
+@media(max-width:768px) {
+	.header {
+		padding: 30px;
+		height: 750px;
+	}
+
+	.header img {
+		width: 90%
+		height: 300px;
+		margin: 20px 0 0 20px;
+	}
+
+	.header .btn {
+		font-size: 10px;
+		margin-left: 20px;
+	}
+
+	.header h1 {
+		font-size: 20px;
+	}
+
+	.header p {
+		font-size: 10px;
+	}
+}
+
+/*OFFICERS*/
+
+.officers {
+	padding: 80px 0 80px;
+	text-align: center;
+	background-color: #fff;
+}
+
+.officers h2,
+.officers h4, 
+.officers h5 {
+	color: #4c4c4c;
+	margin: 20px 0 20px;
+}
+
+.officer h4 {
+	font-size: 22px;
+}
+.officers p {
+	color: #737373;
+	font-size: 16px;
+	padding-bottom: 40px;
+}
+.officers img {
+	width: auto 0;
+	height: 250px;
+	box-shadow: 10px 5px 5px gray;
+}
+
+/*EVENTS*/
+
+.events {
+	padding: 50px 0 80px;
+	text-align: center;
+	background-color: #ce2029;
+}
+
+.events h4,
+.events h5,
+.events p {
+	color: black;
+}
+
+.events p {
+	padding-bottom: 40px;
+}
+
+.events .event {
+	padding: 30px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 30px;
+	box-shadow: 10px 5px 5px black;
+
+}
+
+.event button {
+	margin-top: 10px;
+	background-color: #ce2029;
+	color: black;
+	border: 1px solid black;
+}
+
+/*MEMBERS*/
+.members {
+	padding: 50px 0 80px;
+	text-align: center;
+	background-color: #fff;
+}
+
+.member img {
+	height: 150px;
+	width: 150px;
+	margin: 10px 0 10px 0;
+}
+
+.member {
+	border: 1px solid black;
+	margin: 10px;
+	box-shadow: 10px 5px 5px black;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+/*CONTACT*/
+
+.contact {
+	padding: 50px 0 80px;
+	text-align: center;
+	background-color: #ce2029;
+}
+
+.contact p {
+	padding-bottom: 80px;
+	color: #737373;
+}
+.contact h2 {
+	color: #4c4c4c;
+	margin: 20px 0 20px;
+}
+
+.contact .input-group {
+	margin-bottom: 25px;
+}
+
+.contact .form-control {
+	border-radius: 0 !important;
+
+}
+
+.contact span {
+	border-radius: 0 !important;
+}
+
+.contact btn {
+	border-radius: 0 !important;
+	width: 100%;
+	font-size: 15px;
+	background-color: #f08080;
+	color: #fff;
+}
+
+.contact .btn:hover {
+	background-color: #a85959 !important;
+	color: #fff !important;
+}
+
+/*FOOTER*/
+
+.footer {
+	padding: 30px;
+	color: #cccccc;
+	background-color: #222222;
+
+}
+
+.footer .social {
+	font-size: 20px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	padding: 5px;
+	border: 1px border #cccccc;
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+
+.footer input {
+	height: 40px;
+	width: 160px;
+	padding: 5px;
+	background-color: #cccccc;
+	color: #000;
+
+}
+
+.footer btn {
+	padding: 10px 5px 10px;
+	margin: -3px 0 0 5px;
+}
