@@ -1,0 +1,14 @@
+{
+  "name": "usfca",
+  "version": "1.0.0",
+  "description": "Utah State Fire Chiefs Association Web App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Butler",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
